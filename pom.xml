@@ -8,5 +8,17 @@
     <artifactId>Sniffer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.pcap4j</groupId>
+            <artifactId>pcap4j-core</artifactId>
+            <version>[1.0, 2.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>org.pcap4j</groupId>
+            <artifactId>pcap4j-packetfactory-static</artifactId>
+            <version>[1.0, 2.0)</version>
+        </dependency>
 
+    </dependencies>
 </project>
